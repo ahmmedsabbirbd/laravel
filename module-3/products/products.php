@@ -1,6 +1,6 @@
 <?php
     include_once('../data/data.php');
-    include_once('./t_product.php');
+    include_once('./library.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +19,7 @@
                 <div class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                 <?php
                     foreach($products as $product) {
-                        product($product);
+                        displayProduct($product);
                     }
                 ?>
                 </div>
