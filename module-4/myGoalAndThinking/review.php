@@ -184,7 +184,7 @@ $numbers = array(1, 2, 3, 4, 5);
 //5. date_diff(): This function is used to calculate the difference between two dates.
 // Use Case: Calculating the difference between two dates.
 
-// $date1 = new DateTime('2022-02-18');
+// $date1 = new DateTime('2022-02-18 01:50:0.000000');
 // $date2 = new DateTime('2023-02-14');
 // $interval = date_diff($date1, $date2);
 // print_r($interval);

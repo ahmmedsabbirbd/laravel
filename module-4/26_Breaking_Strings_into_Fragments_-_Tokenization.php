@@ -1,10 +1,12 @@
 <?php
 
-$name = "Sabbir Ahmmed Ki re";
+$name = "Sabbir Ahmmed,gadah Ki re";
 
 $parts = explode(' ', $name);
 print_r($parts);
 
-// koyta charectar ace oita check korte hobe
+$nameJoin = join(' ', $parts);
+echo $nameJoin.PHP_EOL;
 
-$characters = range('a', 'z');
+$part5 = preg_split("/ |,|a/", $name);
+print_r($part5);
