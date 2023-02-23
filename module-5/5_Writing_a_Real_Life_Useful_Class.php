@@ -32,4 +32,3 @@ class RGB{
 $color= new RGB();
 $color->setRGB('#3E3D32');
 $color->getRGB();
- 
