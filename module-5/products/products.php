@@ -3,7 +3,7 @@
 require_once('members.php');
 
 class Products {
-    public $products;
+    protected $products;
 
     function __construct($array) {
         $this->products = $array;
@@ -39,7 +39,6 @@ class Products {
 
 class Shop extends Products {
     private $shopedProduct;
-    private $products;
 
     function __construct($array) {
         $this->shopedProduct = [];

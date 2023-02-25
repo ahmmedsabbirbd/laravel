@@ -15,6 +15,6 @@ $products = new Products($prouctsList);
 
 
 $shop = new Shop($products->getProducts());
-$shop->addShoped(12141);
+$shop->addShoped(12143);
 
-print_r($shop->shopedProduct());
+print_r($shop->getShopeedProduct());

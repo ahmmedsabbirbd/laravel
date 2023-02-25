@@ -12,8 +12,8 @@ class FavColor {
         $this->data = $data;
     }
 
-    function __clone(){
-        $this->data = clone $this->data;
+    public function __clone(){
+        $this->data =clone $this->data;
     }
 }
 
