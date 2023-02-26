@@ -1,4 +1,5 @@
 <?php
+namespace ProductManagement\Members;
 
 class Members {
     private $members;
