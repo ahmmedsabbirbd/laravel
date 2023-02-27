@@ -14,7 +14,7 @@ $prouctsList = $products = [
 
 $products = new Products($prouctsList);
 
-// print_r($products->getProducts());
+print_r($products->getProducts());
 
 
 $shop = new Shop($products->getProducts());

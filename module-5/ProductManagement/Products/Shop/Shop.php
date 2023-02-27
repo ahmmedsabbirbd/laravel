@@ -1,5 +1,6 @@
 <?php
 namespace ProductManagement\Products\Shop;
+require_once "./autoloder.php";
 
 use \ProductManagement\Products\products;
 use \ProductManagement\Products\ProductsInterfaces\addShopedInterface;
@@ -10,8 +11,6 @@ class Shop extends Products implements addShopedInterface {
     public function __construct($array) {
         $this->shopedProduct = [];
         $this->products = $array;
-
-        // print_r(parent::getProducts());
     }
 
     public function addShoped($shopedId) {

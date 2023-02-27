@@ -1,5 +1,7 @@
 <?php
 namespace ProductManagement\Products;
+require_once "./autoloder.php";
+
 
 use \ProductManagement\Products\ProductsInterfaces\ProductsInterfaces;
 class Products implements ProductsInterfaces{
