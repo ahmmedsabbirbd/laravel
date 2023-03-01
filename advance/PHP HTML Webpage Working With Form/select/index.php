@@ -11,45 +11,17 @@
 <body>
 
     <?php
-        // checked
-        // function displayOption(array $options) {
-        //     foreach($options as $option) {
-        //         printf("<option value='%s'>%s</option>", strtolower($option), $option);
-        //     }
-        // }
 
-        // $foods = ['Apple', "Comla"];
+    require_once('./select.php');
 
-        // function checkDisplay($checkBox) {
-        //     if(isset($_REQUEST[$checkBox]) && $_REQUEST[$checkBox] != '') {
-        //         printf("Your value %s", filter_input(INPUT_POST, $checkBox, FILTER_SANITIZE_STRING));
-        //     }
-        // }
-
-        // checkDisplay('country');
-
-        // multiple checked
-        function displayOption(array $options) {
-            foreach($options as $option) {
-                printf("<option value='%s'>%s</option>", strtolower($option), $option);
-            }
-        }
         $foods = ['Apple', "Comla", "Banana"];
 
 
-        function checkDisplay($checkBox, $value) {
-            if(isset($_REQUEST[$checkBox]) && is_array($_REQUEST[$checkBox])) {
-                $foodArray = filter_input(INPUT_POST, $checkBox, FILTER_SANITIZE_STRING, FILTER_REQUIRE_ARRAY);
-                
-                if(in_array(strtolower($value), $foodArray)) {
-                    echo "checked";
-                }
-                
-                var_dump($foodArray);
-            }
-        }
-
-        checkDisplay('country', "Comla");
+        $foodArray = filter_input(INPUT_POST, 'country', FILTER_SANITIZE_STRING, FILTER_REQUIRE_ARRAY);
+        var_dump($foodArray);
+        if(!$foodArray) {
+            $foodArray = [];
+        } 
     ?>
 
     <form class="max-w-md mx-auto bg-white p-8 mt-10 rounded-lg shadow-md" action="index.php" method="POST">
@@ -60,7 +32,7 @@
 
         <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight" id="country" name="country[]" multiple>
             <option disabled selected>Default</option>
-            <?php displayOption($foods); ?>
+            <?php displayOption($foods, $foodArray); ?>
         </select>
 
         <div class="flex items-center justify-between">
@@ -70,6 +42,11 @@
         </div>
     </form>
 
+    <style>
+        [checked] {
+            background: red !important;
+        }
+    </style>
 </body>
 </html>
     
