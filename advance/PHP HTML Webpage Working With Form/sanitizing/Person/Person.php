@@ -1,6 +1,5 @@
 <?php
 namespace Sanitizing\Person;
-
 class Person {
     private $name;
     private $email;
