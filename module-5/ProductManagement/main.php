@@ -74,7 +74,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
         </div>
         <div class="mb-4">
           <label class="font-bold text-gray-800" for="email">Price:</label>
-          <input class="border-2 border-gray-200 p-2 w-full" type="text" name="text" id="text" />
+          <input class="border-2 border-gray-200 p-2 w-full" type="number" name="price" id="text" />
         </div>
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Submit</button>
       </form>
@@ -86,7 +86,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
                 <div class="p-6">
                     <?php 
                         printf("<h2 class='text-xl font-bold text-gray-800 mb-2'>%s</h2>", $product['name']);
-                        printf("<p class='text-gray-700 leading-relaxed mb-4'>Price: $%s</p>", $product['price']);
+                        printf("<p class='text-gray-700 leading-relaxed mb-4'>Price: $ %s</p>", $product['price']);
                         printf("<a href='./main.php?delete=%s' class='text-indigo-500 hover:text-indigo-400 font-bold'>Remove</a>", $product['id']);
                     ?>
                 </div>
