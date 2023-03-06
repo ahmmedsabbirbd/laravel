@@ -1,13 +1,11 @@
 <?php
 namespace ProductManagement\Products;
-require_once "./autoloder.php";
-
 
 use \ProductManagement\Products\ProductsInterfaces\ProductsInterfaces;
 class Products implements ProductsInterfaces{
     protected $products;
 
-    public function __construct($array) {
+    public function __construct($array = []) {
         $this->products = $array;
     }
     
@@ -25,12 +23,12 @@ class Products implements ProductsInterfaces{
         }
     }
 
-    public function updateProuduct($productId) {
+    public function updateProuduct($productId, $productTitle, $productPrice) {
         $updateProduct = array_search($productId, array_column($this->products, 'id'));
 
         if ($updateProduct !== false) {
-            $products[$productId]['name'] = 'New Product x Name';
-            $products[$productId]['price'] = 29.99;
+            $products[$productId]['name'] = $productTitle;
+            $products[$productId]['price'] = $productPrice;
             print_r($products);
             $this->products[$productId] = $products;
         } else {
@@ -38,5 +36,7 @@ class Products implements ProductsInterfaces{
         }
     }
 
-    // abstract public function getShopeedProduct(); i want need abstract
+    public function addProduct($productId, $productTitle, $productPrice) {
+        $this->products[] = ['id' => $productId, 'name' => $productTitle, 'price' => $productPrice];
+    }
 }

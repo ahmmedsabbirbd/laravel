@@ -1,10 +1,10 @@
 <?php
 namespace ProductManagement\Products\ProductsInterfaces;
-require_once "./autoloder.php";
 
 interface ProductsInterfaces {
     public function removeProuduct($productId);
-    public function updateProuduct($productId);
+    public function updateProuduct($productId, $productTitle, $productPrice);
+    public function addProduct($productId, $productTitle, $productPrice);
 }
 
 interface addShopedInterface {

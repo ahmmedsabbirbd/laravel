@@ -1,6 +1,5 @@
 <?php
 namespace ProductManagement\Products\Shop;
-require_once "./autoloder.php";
 
 use \ProductManagement\Products\products;
 use \ProductManagement\Products\ProductsInterfaces\addShopedInterface;
