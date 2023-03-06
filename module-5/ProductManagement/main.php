@@ -27,7 +27,7 @@ if($_SERVER['REQUEST_METHOD'] == "GET" && $_GET['delete']) {
 if($_SERVER['REQUEST_METHOD'] == "POST") {
     $id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_FLOAT);
     $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
-    $price = filter_input(INPUT_POST, 'price', FILTER_SANITIZE_STRING);
+    $price = filter_input(INPUT_POST, 'price', FILTER_SANITIZE_NUMBER_FLOAT);
     $products->addProduct($id, $name, $price);
 }
 
