@@ -1,5 +1,5 @@
 <?php
-4_(File)_Opening_files_in_different_modes
+// 4_(File)_Opening_files_in_different_modes
 
 $file = "D:/laravel/laravel/module-6/f1.txt";
 
