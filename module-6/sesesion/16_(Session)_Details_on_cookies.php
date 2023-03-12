@@ -1,4 +1,3 @@
 <?php
-setcookie("name", "sabbir", time()+60, "/laravel/");
-
-// echo $_COOKIE['name'];
+ 
+ setcookie('my_cookie', 'my_value', time() + 3600, '/', '', true, true);
