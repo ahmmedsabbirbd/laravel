@@ -13,9 +13,11 @@
 
 		<div class="flex flex-wrap gap-10">
 			<?php
+				require_once "user.php";
+
 				$users = fopen("users.csv", "r");
 				while($user = fgetcsv($users)) {
-					include "user.php";
+					showUser($user);
 				}
 				fclose($users);
 			?> 

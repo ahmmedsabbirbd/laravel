@@ -14,9 +14,14 @@ try {
         // echo $photos->getAnyError();
         if($photos->getAnyError() == 1 && $name && $email && $password) {
             $photos->fileUploaded();
-            echo $photos->getPhotosName();
             $password = md5($password);
-            file_put_contents("users.csv", "{$name},{$email},{$password},{$photos->getPhotosName()} \n", FILE_APPEND);
+            
+            //time 
+            date_default_timezone_set("Asia/Dhaka");
+            $time = new DateTime(); 
+            $time = date_format($time, "h:i:s a d:M:Y");
+            
+            file_put_contents("users.csv", "{$time} {$name},{$email},{$password},{$photos->getPhotosName()} \n", FILE_APPEND);
 
             header("location: users.php");
         } else {
