@@ -21,6 +21,7 @@ try {
             header("location: users.php");
         } else {
             echo "Some Error. Please submit from agin";
+            header("location: users.php");
         }
     }
 } catch(Exception $e) {

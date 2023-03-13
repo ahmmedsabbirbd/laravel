@@ -13,7 +13,7 @@ class multiplePhotoAdded {
                         $photosTmpName = $_FILES[$fileName]["tmp_name"];
                         $photosSize = $_FILES[$fileName]["size"];
 
-                        $this->photosName = $photosName;
+                        $this->photosName = str_replace(" ", "_", $photosName);;
                         $this->photosTmpName = $photosTmpName;
 
                         if (file_exists($photosName)) {
