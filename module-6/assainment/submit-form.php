@@ -23,6 +23,10 @@ try {
             
             file_put_contents("users.csv", "{$time}, {$name},{$email},{$password},{$photos->getPhotosName()} \n", FILE_APPEND);
 
+            session_start();
+            $_SESSION['username'] = $name;
+            setcookie("usernameCookie", $name);
+
             header("location: users.php");
         } else {
             echo "Some Error. Please submit from agin";
