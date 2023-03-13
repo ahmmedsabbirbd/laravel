@@ -21,7 +21,7 @@ try {
             $time = new DateTime(); 
             $time = date_format($time, "h:i:s a d:M:Y");
             
-            file_put_contents("users.csv", "{$time} {$name},{$email},{$password},{$photos->getPhotosName()} \n", FILE_APPEND);
+            file_put_contents("users.csv", "{$time}, {$name},{$email},{$password},{$photos->getPhotosName()} \n", FILE_APPEND);
 
             header("location: users.php");
         } else {

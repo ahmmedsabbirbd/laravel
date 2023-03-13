@@ -1,6 +1,7 @@
 <?php
 
 function showUser($user) {
+    print_r($user);
 echo  <<<NED
     <ul class="bg-white shadow-lg p-6 mb-8">
         <li class="mb-2">Time: {$user[0]}</li>
