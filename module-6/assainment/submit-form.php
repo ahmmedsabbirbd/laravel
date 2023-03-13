@@ -19,7 +19,7 @@ try {
             //time 
             date_default_timezone_set("Asia/Dhaka");
             $time = new DateTime(); 
-            $time = date_format($time, "h:i:s a d:M:Y");
+            $time = date_format($time, "h:i:sa d_M_Y");
             
             file_put_contents("users.csv", "{$time}, {$name},{$email},{$password},{$photos->getPhotosName()} \n", FILE_APPEND);
 
