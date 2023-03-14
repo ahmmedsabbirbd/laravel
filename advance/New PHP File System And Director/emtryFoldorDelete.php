@@ -9,24 +9,24 @@
 // file_put_contents("mkdir_test/f1/f2/text1.txt", "dsfadsf\ndds");
 
 function emtryFoldorDelete($cwd) {
-    if(is_dir($cwd)) {
-        $currentWoringDirectory = scandir($cwd);
+ if(is_dir($cwd)) {
+     $currentWoringDirectory = scandir($cwd);
 
-        foreach($currentWoringDirectory as $singleDirectory) {
-            if($singleDirectory !== "." && $singleDirectory !== "..") {
-                // echo $singleDirectory.PHP_EOL;
+     foreach($currentWoringDirectory as $singleDirectory) {
+         if($singleDirectory !== "." && $singleDirectory !== "..") {
+             // echo $singleDirectory.PHP_EOL;
 
-                $path = $cwd.DIRECTORY_SEPARATOR.$singleDirectory;
-                if(is_dir($path)) {
-                    emtryFoldorDelete($path);
-                } else {
-                    unlink($path);
-                }
-            }
-        }
-        
-        rmdir($cwd).PHP_EOL;
-    }
+             $path = $cwd.DIRECTORY_SEPARATOR.$singleDirectory;
+             if(is_dir($path)) {
+                 emtryFoldorDelete($path);
+             } else {
+                 unlink($path);
+             }
+         }
+     }
+     
+     rmdir($cwd);
+ }
 }
 
 emtryFoldorDelete(getcwd().DIRECTORY_SEPARATOR."module-6");
