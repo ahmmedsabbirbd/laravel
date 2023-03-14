@@ -8,10 +8,31 @@
 // rmdir("mkdir_test");
 
 // make directory
-mkdir("mkdir_test",0777, true);
-file_put_contents("mkdir_test/x.txt", "dsfadsf\ndds");
+// mkdir("mkdir_test",0777, true);
+// file_put_contents("mkdir_test/x.txt", "dsfadsf\ndds");
 
-sleep(3);
+// sleep(3);
 // remove directory
-unlink("mkdir_test/x.txt"); // file remove
-rmdir("mkdir_test");
+// unlink("mkdir_test/x.txt"); // file remove
+// rmdir("mkdir_test");
+
+function emtryFoldorDelete($cwd) {
+    if(is_dir($cwd)) {
+        $currentWoringDirectory = scandir($cwd);
+        $currentFilesIsemtry = true;
+
+        foreach($currentWoringDirectory as $singleDirectory) {
+            if($singleDirectory !== "." && $singleDirectory !== "..") {
+                $currentFilesIsemtry = false;
+                echo $singleDirectory.PHP_EOL;
+            }
+        }
+        
+        if($currentFilesIsemtry) {
+            rmdir($cwd).PHP_EOL;
+            echo "You Directory is deleted {$cwd}";
+        }
+    }
+}
+
+emtryFoldorDelete(getcwd().DIRECTORY_SEPARATOR."text");
