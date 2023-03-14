@@ -1,7 +1,7 @@
 <?php
 
 // make directory
-// mkdir("mkdir_test",0777, true);
+mkdir("mkdir_test",0777, true);
 
 // sleep(3);
 // // remove directory
@@ -9,7 +9,7 @@
 
 // make directory
 // mkdir("mkdir_test",0777, true);
-// file_put_contents("mkdir_test/x.txt", "dsfadsf\ndds");
+file_put_contents("mkdir_test/x.bat", "dsfadsf\ndds");
 
 // sleep(3);
 // remove directory
@@ -35,4 +35,4 @@ function emtryFoldorDelete($cwd) {
     }
 }
 
-emtryFoldorDelete(getcwd().DIRECTORY_SEPARATOR."text");
+// emtryFoldorDelete(getcwd().DIRECTORY_SEPARATOR."text");
