@@ -41,7 +41,7 @@
                $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                 if($result) {
-                    header("Location: welcome.php?name={$result[0]['fn']}");
+                    header("Location: welcome.php?name={$result[0]['fn']}&&lastname={$result[0]['ln']}");
                 } else {
                     echo '<p class="text-red-500 mb-2">Email and password are not matched.</p>';
                }

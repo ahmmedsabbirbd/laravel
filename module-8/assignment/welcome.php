@@ -11,7 +11,7 @@
    <div class="flex flex-col justify-center items-center min-h-screen">
     <?php
         if(isset($_GET['name']) && $_GET['name']) {
-            echo "<div class='font-bold text-xl'>You Name: {$_GET['name']}</div>";
+            echo "<div class='font-bold text-xl'>You Name: {$_GET['name']} {$_GET['lastname']}</div>";
         } else {
             header("Location: login.php");
         }
