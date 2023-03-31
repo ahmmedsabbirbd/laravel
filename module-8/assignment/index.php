@@ -9,13 +9,13 @@
 		<h1 class="text-2xl font-medium mb-4">Registration Form</h1>
 		<form action="register.php" method="post">
 			<div class="mb-4">
-				<label for="first_name" class="block text-gray-700 font-medium mb-2">First Name:</label>
-				<input type="text" name="first_name" id="first_name" class="border-gray-400 border-2 p-2 w-full rounded-md" required>
+				<label for="fn" class="block text-gray-700 font-medium mb-2">First Name:</label>
+				<input type="text" name="fn" id="fn" class="border-gray-400 border-2 p-2 w-full rounded-md" required>
 			</div>
 
 			<div class="mb-4">
-				<label for="last_name" class="block text-gray-700 font-medium mb-2">Last Name:</label>
-				<input type="text" name="last_name" id="last_name" class="border-gray-400 border-2 p-2 w-full rounded-md" required>
+				<label for="ln" class="block text-gray-700 font-medium mb-2">Last Name:</label>
+				<input type="text" name="ln" id="ln" class="border-gray-400 border-2 p-2 w-full rounded-md" required>
 			</div>
 
 			<div class="mb-4">
@@ -36,5 +36,18 @@
 			<button type="submit" name="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">Register</button>
 		</form>
     </div>
+
+	<script>
+		const form = document.querySelector('form');
+		const passwordInput = document.querySelector('#password');
+		const confirmPasswordInput = document.querySelector('#confirm_password');
+
+		form.addEventListener('submit', function(event) {
+		if (passwordInput.value !== confirmPasswordInput.value) {
+			event.preventDefault(); // prevent form submission
+			alert('Passwords do not match');
+		}
+		});
+	</script>
 </body>
 </html>
