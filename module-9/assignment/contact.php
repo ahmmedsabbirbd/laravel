@@ -7,7 +7,7 @@
                         <div class="headline">
                             <h1>Send your message</h1>
                         </div>
-                        <form action="">
+                        <form action="submit.php" method="POST">
                             <label for="">Email</label>
                             <input type="email" name="email" id="email" placeholder="Enter your email">
                             <label for="">Subject</label>

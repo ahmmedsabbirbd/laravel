@@ -1,0 +1,6 @@
+i easly implementation of my blog website.
+
+1. Responsive Done
+2. From Validation
+
+****All challenges I overcame of Google and Chatgpt****
