@@ -10,8 +10,10 @@ body {
 }
 .mr-0{margin-right: 0 !important;}
 .container {
-	width: 1140px;
-	margin: 0 auto;
+	width: 1170px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 15px;
 }
 
 /* header css style  */
@@ -60,17 +62,37 @@ header nav ul li a {
 	overflow: hidden;
 }
 .featured-area {
+    gap: 15px;
+	display: flex;
+	flex-wrap: wrap;
 }
 .headline{margin-bottom: 10px;/*! text-transform: capitalize; *//*! font-size: 22px; */}
 .headline h1{text-transform: capitalize;font-size: 24px;border-left: 10px solid #ddd;padding-left: 10px;}
 
 .featured-area .featured-post {
-	width: 270px;
-	float: left;
+	width: calc(25% - 12px);
+	max-width: 100%;
 	border: 1px solid #ddd;
 	overflow: hidden;
-	margin-right: 15px;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 991px) {
+	.featured-area .featured-post {
+		width: calc(33.33% - 12px);
+	}
+}
+
+@media (max-width: 767px) {
+	.featured-area .featured-post {
+		width: calc(50% - 12px);
+	}
+}
+
+@media (max-width: 575px) {
+	.featured-area .featured-post {
+		width: 100%;
+	}
 }
 
 .featured-area .featured-post img {
@@ -114,22 +136,42 @@ header nav ul li a {
 }
 
 /* blog page style  */
-.content{width: 800px;float: left;}
+.blog-page .container {
+	gap: 30px 15px;
+	display: flex;
+}
+
+@media (max-width: 1199px) {
+	.blog-page .container {
+		flex-direction: column;
+	}
+}
+
 .content .featured-area .featured-post {
-	width: 256px;
-	float: left;
+	width: calc(33.33% - 12px);
 	border: 1px solid #ddd;
 	overflow: hidden;
-	margin-right: 15px;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-	margin-bottom: 15px;
 }
-.sidebar {
-	width: 250px;
-	float: left;
-	margin-left: 30px;
-	margin-top: 20px;
+
+@media (max-width: 991px) {
+	.content .featured-area .featured-post {
+		width: calc(33.33% - 12px);
+	}
 }
+
+@media (max-width: 767px) {
+	.content .featured-area .featured-post {
+		width: calc(50% - 12px);
+	}
+}
+
+@media (max-width: 575px) {
+	.content .featured-area .featured-post {
+		width: 100%;
+	}
+}
+
 .same-sidebar {
 	margin: 15px 0px;
 }
@@ -217,6 +259,38 @@ header nav ul li a {
 }
 .share-post ul li a:hover{
 	
+}
+
+/* blog details page */
+.featured .container {
+    gap: 30px;
+	display: flex;
+}
+
+.featured .container .content {
+	width: 80%;
+}
+
+@media (max-width: 991px) {
+	.featured {
+		margin: 40px 0px;
+	}
+
+	.featured .container {
+		flex-direction: column;
+	}
+
+	.featured .container .content {
+		width: 100%;
+	}
+}
+
+.single-post {
+	flex-direction: column;
+}
+
+.single-post .featured-post {
+	width: 100% !important;
 }
 
 /* contact page css */

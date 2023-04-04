@@ -1,14 +1,15 @@
 <?php include "./header.php" ?>
 
     <main>
-        <section class="featured">
+        <section class="featured blog-page">
             <div class="container">
                 <div class="content">
+                    <div class="headline">
+                        <h1>blog post</h1>
+                    </div>
+
                     <div class="featured-area">
-                        <div class="headline">
-                            <h1>blog post</h1>
-                        </div>
-                        <div class="featured-post">
+                        <article class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -17,8 +18,8 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
-                        </div>
-                        <div class="featured-post">
+                        </article>
+                        <article class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -27,7 +28,7 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
-                        </div>
+                        </article>
                         <div class="featured-post mr-0">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
@@ -38,7 +39,7 @@
                                 <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
                         </div>
-                        <div class="featured-post">
+                        <article class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -47,8 +48,8 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
-                        </div>
-                        <div class="featured-post">
+                        </article>
+                        <article class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -57,7 +58,7 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
-                        </div>
+                        </article>
                         <div class="featured-post mr-0">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">

@@ -3,11 +3,11 @@
         <section class="featured">
             <div class="container">
                 <div class="content">
-                    <div class="featured-area">
+                    <div class="featured-area single-post">
                         <div class="headline">
                             <h1>Lorem ipsum dolor sit amet.</h1>
                         </div>
-                        <div class="featured-post" style="width: 800px">
+                        <div class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body single-post-p">
