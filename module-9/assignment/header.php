@@ -13,13 +13,13 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html"><img src="logo.png" alt="" srcset=""></a>
+                <a href="index.php"><img src="logo.png" alt="" srcset=""></a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>

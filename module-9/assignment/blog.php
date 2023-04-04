@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "./header.php" ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Blog</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><img src="logo.png" alt="" srcset=""></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <main>
         <section class="featured">
             <div class="container">
@@ -36,60 +12,60 @@
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
-                                <h2><a href="blog-details.html">Lorem ipsum dolor sit amet.</a></h2>
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
                                     distinctio repudiandae...</p>
-                                <a class="read-more" href="blog-details.html">Read More</a>
+                                <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
                         </div>
                         <div class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
-                                <h2><a href="blog-details.html">Lorem ipsum dolor sit amet.</a></h2>
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
                                     distinctio repudiandae...</p>
-                                <a class="read-more" href="blog-details.html">Read More</a>
+                                <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
                         </div>
                         <div class="featured-post mr-0">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
-                                <h2><a href="blog-details.html">Lorem ipsum dolor sit amet.</a></h2>
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
                                     distinctio repudiandae...</p>
-                                <a class="read-more" href="blog-details.html">Read More</a>
+                                <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
                         </div>
                         <div class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
-                                <h2><a href="blog-details.html">Lorem ipsum dolor sit amet.</a></h2>
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
                                     distinctio repudiandae...</p>
-                                <a class="read-more" href="blog-details.html">Read More</a>
+                                <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
                         </div>
                         <div class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
-                                <h2><a href="blog-details.html">Lorem ipsum dolor sit amet.</a></h2>
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
                                     distinctio repudiandae...</p>
-                                <a class="read-more" href="blog-details.html">Read More</a>
+                                <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
                         </div>
                         <div class="featured-post mr-0">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
-                                <h2><a href="blog-details.html">Lorem ipsum dolor sit amet.</a></h2>
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
                                     distinctio repudiandae...</p>
-                                <a class="read-more" href="blog-details.html">Read More</a>
+                                <a class="read-more" href="blog-details.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -120,6 +96,4 @@
             </div>
         </section>
     </main>
-</body>
-
-</html>
+<?php include "./footer.php" ?>

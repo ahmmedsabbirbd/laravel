@@ -16,7 +16,7 @@ body {
 
 /* header css style  */
 header {
-	background: #fff;
+	background: #ddd;
 	width: 100%;
 	height: 68px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -220,15 +220,6 @@ header nav ul li a {
 }
 
 /* contact page css */
-.contact-info{
-	width: 30%;
-	float: left;
-}
-.contact-form{
-	width: 60%;
-	float: left;
-}
-
 .contact-area {
 	margin: 80px 0px;
 	/*! background: #ddd; */
@@ -264,4 +255,17 @@ header nav ul li a {
 	font-size: 18px;
 	margin: 20px 0px;
 
+  }
+
+
+  /* footer css */
+  footer {
+	background-color: #ddd;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+  }
+  
+  footer p {
+	margin: 0;
   }
