@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><img src="logo.png" alt="" srcset=""></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <main>
         <section class="featured">
             <div class="container">
+                    <div class="headline">
+                        <h1>featured post</h1>
+                    </div>
+
                     <div class="featured-area">
-                        <div class="headline">
-                            <h1>featured post</h1>
-                        </div>
-                        <div class="featured-post">
+                        <article class="featured-post">
                             <img src="https://img.freepik.com/free-photo/colorful-heart-air-balloon-shape-collection-concept-isolated-color-background-beautiful-heart-ball-event_90220-1047.jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -40,8 +17,8 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.html">Read More</a>
                             </div>
-                        </div>
-                        <div class="featured-post">
+                        </article>
+                        <article class="featured-post">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -50,8 +27,8 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.html">Read More</a>
                             </div>
-                        </div>
-                        <div class="featured-post">
+                        </article>
+                        <article class="featured-post">
                             <img src="https://img.freepik.com/free-photo/colorful-heart-air-balloon-shape-collection-concept-isolated-color-background-beautiful-heart-ball-event_90220-1047.jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -60,8 +37,8 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.html">Read More</a>
                             </div>
-                        </div>
-                        <div class="featured-post mr-0">
+                        </article>
+                        <article class="featured-post mr-0">
                             <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
                                 alt="" srcset="">
                             <div class="featured-post-body">
@@ -70,7 +47,7 @@
                                     distinctio repudiandae...</p>
                                 <a class="read-more" href="blog-details.html">Read More</a>
                             </div>
-                        </div>
+                        </article>
                     </div>
             </div>
         </section>
