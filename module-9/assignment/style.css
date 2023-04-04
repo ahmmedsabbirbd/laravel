@@ -271,7 +271,7 @@ header nav ul li a {
 	width: 80%;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
 	.featured {
 		margin: 40px 0px;
 	}
@@ -291,6 +291,10 @@ header nav ul li a {
 
 .single-post .featured-post {
 	width: 100% !important;
+}
+
+.featured.home-page .container {
+	flex-direction: column;
 }
 
 /* contact page css */

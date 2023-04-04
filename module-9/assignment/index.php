@@ -1,7 +1,7 @@
 <?php include "./header.php" ?>
 
     <main>
-        <section class="featured">
+        <section class="featured home-page">
             <div class="container">
                     <div class="headline">
                         <h1>featured post</h1>
