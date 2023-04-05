@@ -1,6 +1,10 @@
 i easly implementation of my blog website.
 
-1. Responsive Done
-2. From Validation
+1. create home page
+2. create blog page
+3. create blog details page
+4. create contact page
+5. Responsive Done
+6. From Validation
 
 ****All challenges I overcame of Google and Chatgpt****
