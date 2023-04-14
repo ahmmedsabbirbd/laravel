@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 JavaScript Date Object</title>
+</head>
+<body>
+
+    <button onclick="objectAlert()">Alert</button>
+    <button onclick="objectConfim()">Confirm</button>
+    <button onclick="objectPormt()">Pormt</button>
+    <button onclick="objectOpen()">Open</button>
+
+    <script>
+
+        const objectAlert  = ()=> {
+            alert("Kire Alert")
+        }
+        
+        const objectConfim  = ()=> {
+            let yourResul = confirm("do you allow");
+            console.log(yourResul);
+            
+        }
+        
+        const objectPormt  = ()=> {
+            let yourResul = prompt("do you allow");
+            console.log(yourResul);
+        }
+        
+        const objectOpen  = ()=> {
+            open();
+        }
+
+        setTimeout(() => {
+            alert("Kire Alert")
+        }, 5000);
+
+    </script>
+</body>
+</html>

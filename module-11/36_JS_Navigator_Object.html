@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 JavaScript Date Object</title>
+</head>
+<body>
+
+    <script>
+        // document.writeln(navigator.appCodeName);
+        // document.writeln("<br>");
+        // document.writeln(navigator.appName);
+        // document.writeln("<br>");
+        // document.writeln(navigator.appVersion);
+        // document.writeln("<br>");
+        // document.writeln(navigator.cookieEnabled);
+        // document.writeln("<br>");
+        // document.writeln(navigator.language);
+        // document.writeln("<br>");
+        // document.writeln(navigator.userAgent);
+        // document.writeln("<br>");
+        // document.writeln(navigator.platform);
+        
+        const getLocation = ()=> {
+            navigator.geolocation.getCurrentPosition((position)=> {
+                const altitude = position.coords.altitude;
+                const latitude = position.coords.latitude;
+                const longitude = position.coords.longitude;
+                
+                document.writeln(altitude);
+                document.writeln("<br>");
+                document.writeln(latitude);
+                document.writeln("<br>");
+                document.writeln(longitude);
+                document.writeln("<br>");
+
+                document.writeln("update loacation");
+                document.writeln("<br>");
+                console.log(position);
+            })
+        }
+
+        setInterval(getLocation, 3000);
+
+    </script>
+</body>
+</html>
