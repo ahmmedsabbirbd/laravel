@@ -1,0 +1,42 @@
+ajax ostad hasin hider
+http vs https
+http: 
+1. method type // get post put delte patch
+get // server data dibe
+post // server date make korbo
+put // all detals update of one user
+delete // delete recored
+patch // only one detals update of one user
+2. body
+3. header
+
+status code:
+100 // 
+200 // all is okea then return true 
+300 // url change hole ai ta dey // age ei url cilo akn ai oi ta te take na
+400 // error return
+500 // server er nijescho error
+
+status
+ok
+json
+
+header:
+header: {
+	customHeader: "123",
+}
+
+when post request
+then i send "aplication/json"
+
+fetch and then axios
+axios is a third party lirbary of fetch
+
+cros meaing:
+amar website teke oi sudu api ajax requerst asbe
+
+http te body json pasche kora hoschea.
+
+https: encription data
+
+foxji
