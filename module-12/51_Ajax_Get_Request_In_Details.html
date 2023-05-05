@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="CreateProduct()">Onclick post request</button>
+
+    <script>
+        function getProduct() {
+            let Url = "https://crud.teamrabbil.com/api/v1/ReadProduct";
+            let Config = {method: "GET" };
+
+            fetch(Url, Config)
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(err => console.error(err));
+        }
+
+        // getProduct();
+
+        function CreateProduct() {
+            let Url = "https://crud.teamrabbil.com/api/v1/CreateProduct";
+            let data = {
+                ProductName: 'Sabbir',
+                ProductCode: "10212",
+                Img: "a",
+                UnitPrice: "32",
+                Qty: "2",
+                TotalPrice: "3012"
+            }
+
+            let Config = {
+                method: "POST",
+                Headers: {
+                    "Accepts": "application/json",
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            };
+
+            fetch(Url, Config)
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(err => console.error(err));
+        }
+
+    </script>
+</body>
+</html>
