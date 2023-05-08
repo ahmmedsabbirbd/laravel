@@ -1,0 +1,5 @@
+1. laravel is web application make jnna sob bisoy gulo er moddhe ache.
+laravel cole mvc pattern er upor depend kore cole.
+2. common security default vabe ache.
+3. onek bisal comunication
+4. elegant syntext and powerfull tools.

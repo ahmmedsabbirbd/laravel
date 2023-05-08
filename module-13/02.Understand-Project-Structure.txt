@@ -1,0 +1,8 @@
+1. app/Http/
+2. app/Model
+3. database/migrations
+4. resources/view
+5. route/api.php
+6. route/web.php
+7. storage/App
+8. .env

@@ -1,0 +1,35 @@
+1. php artisan serve // project start for development
+
+live server deploy korle behsi use hoy.
+2. php artisan down // jkhon project ta mantainces kora hobe ai mode calu kora hoy. ai mode calu tabkle kono request reponse
+3. php artisan up //   ai comand dile application live server a cole jai.
+4. php artisan route:list // ki ki route ace and kon method a sob gulo show korbe.
+5. php artisan key:generate // app_key banai(.env). app key sara website start hobe na. 
+
+// cache cleared (server a deploy korar age obossoi cache clear korte hobe)
+// onek somoy local file change korle kaj kore na tokhon cache clear korte hoy
+
+6. php artisan config:clear // config er joto cache ache sob cache clear hobe
+7. php artisan route:clear // route er joto cache ache sob cache clear hobe
+8. php artisan view:clear // view er joto cache ache sob cache clear hobe
+9. php artisan event:clear // event er joto cache ache sob cache clear hobe
+10. php artisan cache::clear // cache er joto cache ache sob cache clear hobe
+
+// controller or model or migration or migrate
+
+11. php artisan make:controller DemoController // (app/Http/Controller) Controller er moddhe DemoController create hobe
+12. php artisan make:model DemoModel // (app/Model) Model er moddhe DemoController create hobe
+13. php artisan make:migration create_demo_table // (database/migration) migration er moddhe DemoController create hobe
+14. php artisan migrate // migrate kore (table create kora database e)
+15. /(skip)/ php artisan make:middleware CheckAge // ai name middleware hoye jabe
+16. /(skip)/ php artisan make:mail OrderShipped // mail create hobe
+
+old // we are did not use it.
+// Front-end scaffolding
+17. php artisan ui vuw
+18. php artisan ui react
+19. php artisan ui bootsrap
+20. php artisan preset none
+old // we are did not use it.
+
+ 
