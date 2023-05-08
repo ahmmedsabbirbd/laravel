@@ -1,0 +1,36 @@
+Design System
+1. Microsoft - Fluent Desgin
+2. Google - Material Desgin
+3. IBM - Carbon Desgin
+4. Baidu - Ant Design
+.........
+Tools
+1. Bootsrap Studio
+2. mobirise
+3. Shuffle.dev
+4. themeforest
+.......
+UI kit
+1. https://www.creative-tim.com/
+2. 
+
+
+
+Design System 
+1. Microsoft- Fluent Design 
+2. Google- Material Design
+3. IBM- Carbon Design
+5. Baidu- Ant Design
+.........
+Tools 
+->Bootstrap Studio
+->Mobirise
+->Shuffle 
+->Themforest 
+.........
+UI-KIT
+https://themes.getbootstrap.com
+https://www.creative-tim.com 
+
+
+mysqldump -uroot dbname dump.sql

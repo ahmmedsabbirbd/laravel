@@ -1,0 +1,65 @@
+show databases; // show all databases
+create database college; // create new database
+drop database college; // delete database
+
+CREATE TABLE civisol (
+    `id` INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    `nom` varchar(500) NOT NULL,
+    `email` varchar(500) NOT NULL,
+    `adresse` varchar(500) NOT NULL,
+    `postal` varchar(500) NOT NULL,
+    `ville` varchar(500) NOT NULL,
+    `solaires` varchar(500) NOT NULL,
+    `couverture_value` varchar(500) NOT NULL,
+    `souhaitee` varchar(500) NOT NULL,
+    `profondeur` varchar(500) NOT NULL,
+    `envisage` varchar(500) NOT NULL,
+    `orientation_value` varchar(500) NOT NULL,
+    `panneaux` varchar(500) NOT NULL,
+    `central` varchar(500) NOT NULL,
+    `distance` varchar(500) NOT NULL,
+    `courant_value` varchar(500) NOT NULL,
+    `complementaires` varchar(500) NOT NULL,
+    `photos` varchar(500) NOT NULL
+);
+
+rename table student to newStudent;
+drop table newStudent;
+
+insert into student(name) VALUES ('oishi ar');
+
+select nom from civisol;
+select nom, email from civisol; // nom colum
+
+SELECT DISTINCT nom from civisol; // coppy gulo bade
+SELECT * FROM civisol LIMIT 5; // limited 5
+
+SELECT * FROM civisol LIMIT 1, 1; // limited prototohm the 1
+
+SELECT photos, central FROM civisol ORDER BY photos; // colom ta a-z
+SELECT photos, central FROM civisol ORDER BY photos desce; // colom ta z-a
+
+SELECT adr FROM hellowatt WHERE habitants = '32'; // ai ta sudhu
+
+SELECT adr FROM hellowatt WHERE habitants BETWEEN '20'  AND '30'; // 20 and 30 er moddhe
+SELECT adr FROM hellowatt WHERE habitants != '25'; //  ai ta bade
+
+
+SELECT * FROM hellowatt WHERE adr = 'Natore' and habitants = '32'; // where pore ami je condition dibo setai kaj korbe
+
+SELECT * FROM hellowatt WHERE adr = 'Natore' OR habitants = '32'; // WHERE er por conditon true hole sei row return korbe
+
+select * FROM hellowatt WHERE habitants IN ('32', '25'); //  or alternative
+select * FROM hellowatt WHERE habitants NOT IN ('32', '25'); // jegulo te ai value gulo nai sei gulo
+
+select * from hellowatt where situation like '%ro%'; // search in column
+select situation as myData from hellowatt; // column name refrer show
+
+create table teacher(
+	ID int not null AUTO_INCREMENT PRIMARY KEY,
+	name varchar(10)
+); // add table
+
+update hellowatt set situation = 'udpate value' WHERE situation = 'x'; // update value
+delete from hellowatt WHERE id = '1'; //  delete row
+
