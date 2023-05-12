@@ -1,0 +1,19 @@
+1. https://laravelshift.com // project version update
+2. https://www.youtube.com/@LaraconOnline // laravcon important video
+3. https://www.youtube.com/@LaravelPHP // laravel youtube video
+
+* Contrubute
+1. https://github.com/laravel/docs
+2. https://github.com/laravel/laravel
+3. https://github.com/laravel/framework
+
+important link
+1. https://blog.laravel.com // read blog page for laravel. updates blog
+2. https://laracasts.com/discuss // problem solution
+3. https://larajobs.com for job
+4. https://laravel-news.com // update news
+5. https://laracasts.com // read laravel
+6. https://artisan.page/ artisan er sob command
+
+read
+https://12factor.net/

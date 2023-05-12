@@ -1,0 +1,5 @@
+Soket
+NTLM Authentication need more. desktop a login kora takle sob jaigai login hobe.
+
+
+train chatgpta

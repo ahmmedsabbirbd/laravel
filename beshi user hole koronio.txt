@@ -1,0 +1,10 @@
+every step at first problem found then step by step follow
+1. gpu cpu ram room up
+2. database index
+3. query optimize
+4. ssr (ssr beshi cap porle csr korte hobe ar r je beshi slow korchea seta brower cache kora)
+
+********important********
+every api upload every olada server
+
+rajshahiram.com.bd

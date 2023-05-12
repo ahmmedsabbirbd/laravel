@@ -1,0 +1,7 @@
+development for use development
+stageing for use testing
+production
+
+twelve-factor
+
+php artisan tinker // important
