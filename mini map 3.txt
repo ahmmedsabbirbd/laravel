@@ -1,0 +1,7 @@
+mini map 3 
+
+Requeirnment List
+Database Design
+HTML-CSS
+
+ai mini mam 3 jinis takle apnar laravel application create korben
