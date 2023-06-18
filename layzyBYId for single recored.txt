@@ -1,0 +1,2 @@
+layzyBYId for single recored
+lazy for multiple record

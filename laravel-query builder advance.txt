@@ -1,0 +1,10 @@
+1. database transactions
+2. pessimistic locking
+3. chunking data
+4. Streaming result lazily
+5. Raw Method
+6. orderBy & Latest & oldest
+7. Full Text Indexes (whereFullText, orWhereFullText)
+8. limit & offset
+9. removing Existing Ordering
+10. paginate method (paginate(10), simplePaginate(10), cursorPaginate(10){when i use sorting} )
