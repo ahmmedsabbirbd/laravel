@@ -6,12 +6,4 @@ table gulo age design kore nite hobe.
 bar bar dekhte hobe table gulo tik achea ki na.
 r table er num plural hobe
 
-1. casecade on delete (amar name record delete hole tar shate tar sub forekey delete hobe)
-2. casecade on update (amar name record updarte hole tar shate tar sub forekey update hobe)
-
 akta table a kom column rakhle valo hobe. max-70
-
-
-***********************************
-my_question
-amader jkhon onek gulo migration hobe and onek bar coloum add er Jonna migration korle amader current table er column er structure ki seta kivabe dekhbo ba sei ta bujhte ki  korte pari?

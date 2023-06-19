@@ -1,8 +1,0 @@
-1. database transition query
-2. Pessimistic Locking
-3. chunking
-4. lazily
-5.
-
-foreach vs each
-each use for load large data

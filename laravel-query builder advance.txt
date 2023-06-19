@@ -8,3 +8,8 @@
 8. limit & offset
 9. removing Existing Ordering
 10. paginate method (paginate(10), simplePaginate(10), cursorPaginate(10){when i use sorting} )
+
+foreach vs each
+each use for load large data
+
+where er pore index use korte hoy

@@ -1,0 +1,38 @@
+Session-Based Authentication
+Token-Based Authentication
+Passwordless
+Single Sign-On (SSO)
+Social Sign-In
+Two-Factor Authentication (2FA)
+
+
+
+
+
+
+
+
+
+
+
+Session-Based Authentication
+   Basic Flow of Session-Based Authentication
+
+Token-Based Authentication
+   Basic Flow of Token-Based Authentication
+   Benefits of This Method
+
+Passwordless
+   What is Passwordless?
+   What Can Go Wrong With Passwordless
+   Benefits of Passwordless
+
+Single Sign-On (SSO)
+
+Single Sign-On (SSO)
+Social Sign-In
+Social Login — Best of Both Worlds
+How Do I Add Social Login
+
+Two-Factor Authentication (2FA)
+Bonus Topic: Authentication vs Authorization
