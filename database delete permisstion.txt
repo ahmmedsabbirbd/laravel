@@ -1,0 +1,9 @@
+mysql
+
+adminsetor teke delete permition disable kore dibo user ke
+
+web appliction
+mobile application
+Iot Appliction
+B2B Application Rapid API
+B2C Application
